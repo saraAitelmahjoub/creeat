@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz5"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz 5"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/q5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:text="En conduisant, je peux utiliser mon portable pour écrire un texto ou composer un numéro : " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/Rep"
+            android:layout_width="match_parent"
+            android:layout_height="163dp">
+
+            <RadioButton
+                android:id="@+id/Rep51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oui" />
+
+            <RadioButton
+                android:id="@+id/Rep52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Non" />
+
+            <Button
+                android:id="@+id/buttonNext5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"
+                android:backgroundTint="@color/Gris_clair"
+                android:textColor="@color/black"/>
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="50dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logoo" />
+    </LinearLayout>
+</LinearLayout>

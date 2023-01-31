@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz1"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz 1"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"/>
+<TextView
+    android:id="@+id/Time_count"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  0:20"
+    android:textSize="25dp"
+    android:layout_gravity="right"
+    android:drawableLeft="@drawable/time"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/q1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="A cette intersection , je laisse la priorité à droit : " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/Rep"
+            android:layout_width="match_parent"
+            android:layout_height="117dp">
+
+            <RadioButton
+                android:id="@+id/Rep11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Oui"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/Rep12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Non"
+                android:textSize="15dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/Gris_clair"
+            android:text="Next"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="61dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/logoo"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

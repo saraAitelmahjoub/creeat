@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menu"
+    android:gravity="center"
+    android:layout_margin="30dp"
+    >
+
+
+    <Button
+        android:id="@+id/buttonQuiz"
+        android:layout_width="252dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Bleu_clair"
+        android:textColor="@color/Bleu"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Quiz" />
+    <Button
+        android:id="@+id/buttonUtilisteur"
+        android:layout_width="252dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:backgroundTint="@color/Bleu_ciel"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Liste Utilisateur" />
+    <Button
+        android:id="@+id/buttonNFC"
+        android:layout_width="252dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:backgroundTint="@color/Bleu"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Lire Tag NFC" />
+    <Button
+        android:id="@+id/buttonWrite"
+        android:layout_width="252dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/Bleu_clair"
+        android:textColor="@color/Bleu"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Write" />
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="252dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:backgroundTint="@color/Bleu"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Map" />
+    <Button
+        android:id="@+id/buttonScore"
+        android:layout_width="252dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:backgroundTint="@color/Bleu_dark_clair"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="List des Scores" />
+
+
+</LinearLayout>

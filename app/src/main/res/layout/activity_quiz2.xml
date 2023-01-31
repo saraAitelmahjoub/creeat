@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz2"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz 2"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/q2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Le panneau de danger indique une succession de virages dont le 1er est : " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Rep">
+
+            <RadioButton
+                android:id="@+id/Rep21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="À droit" />
+
+            <RadioButton
+                android:id="@+id/Rep22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="À gauche" />
+
+            <Button
+                android:id="@+id/buttonNext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEXT"
+                android:backgroundTint="@color/Gris_clair"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="61dp"
+                android:layout_gravity="center"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/logoo" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

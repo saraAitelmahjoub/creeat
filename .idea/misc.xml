@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projet_android/app/src/main/res/drawable/cercle_prgress.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/drawable/circular_shape.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/drawable/circularprogressbar.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/drawable/password.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/drawable/search_map.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_inscription.xml" value="0.22" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_liste_des_scores.xml" value="0.1526268115942029" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_liste_reultat.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_quiz1.xml" value="0.22" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_quiz2.xml" value="0.22" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_quiz3.xml" value="0.22" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_quiz4.xml" value="0.16666666666666666" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_quiz5.xml" value="0.22" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/activity_resultat.xml" value="0.13333333333333333" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/element_liste_user.xml" value="0.22" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/element_score.xml" value="0.1526268115942029" />
+        <entry key="..\:/projet_android/app/src/main/res/layout/liste_score.xml" value="0.1526268115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

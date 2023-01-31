@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Quiz4"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz 4"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/q4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="En tant qu'automobiliste , vous devez être plus vigilant lorsqu : " />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/Rep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/Rep41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Le tramway est arrêté" />
+
+            <RadioButton
+                android:id="@+id/Rep42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Le tramway circule" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonNext4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:backgroundTint="@color/Gris_clair"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="66dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logoo" />
+    </LinearLayout>
+</LinearLayout>
